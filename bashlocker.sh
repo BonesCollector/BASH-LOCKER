@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b7e081 (Version 1)
 #!/bin/bash
 
 HASH="c97ed61bcd4a4519a3e2ce9903c7a3e4"
@@ -113,7 +109,7 @@ pass_attemp() {
 
 while true : 
 do
-	trap ' ' 2
+	trap ' ' 2 20
 	pass_obtainer
 	if [ "$PASS" == "$HASH" ] 
 	then
@@ -126,7 +122,3 @@ do
 		pass_attemp
 	fi
 done
-<<<<<<< HEAD
-=======
-
->>>>>>> 2b7e081 (Version 1)
